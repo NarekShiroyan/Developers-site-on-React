@@ -1,6 +1,6 @@
-import site from './img/Vizitka2.png';
-import design from './img/biznes2.png';
-import seo from './img/shop.png';
+import site from '../img/Vizitka2.png';
+import design from '../img/biznes2.png';
+import seo from '../img/shop.png';
 const services = [
     {
         name: 'Разработка сайтов',
