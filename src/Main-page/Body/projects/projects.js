@@ -21,7 +21,7 @@ class Projects extends Component {
                         </ul>
                 </div>
                 <div className="team-info">
-                    <h3 className="title">Артбьюти</h3>
+                    <h3 className="title">Артбь dsюти</h3>
                     <span className="post">Описание мелкое</span>
                 </div>
             </div>
