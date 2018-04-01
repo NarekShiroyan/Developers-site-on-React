@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+
 import './projects.style.css'
-import {projects} from './project_const'
 function ProjectsBlock(props) {
 
     const projects = (
             <div className='row'>
                 {props.projects.map((project)=>
-                    <div className='col m4 s6' key={project.toString()}>
+                    <div className='col m4 s6' key={project.id}>
                         <div className="our-team">
                             <div className="team-image">
                                 <img src='' />

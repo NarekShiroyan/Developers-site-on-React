@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-    function ServiceBlock(props) {
+function ServiceBlock(props) {
         const services = (
             <div className='row'>
                 {props.services.map((service)=>
-                    <div className='col s4' key={service.toString()}>
+                    <div className='col s4' key={service.id}>
                         <div className="card">
                             <div className="card-image waves-effect waves-block waves-light">
                                 <img className="activator" src={service.imgUrl}/>
