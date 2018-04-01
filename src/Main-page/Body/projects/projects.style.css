@@ -1,6 +1,6 @@
 .our-team{
-    border-left: 8px solid #3b336a;
-    border-bottom: 8px solid #3b336a;
+    border-left: 2px solid #3b336a;
+    border-bottom: 2px solid #3b336a;
 }
 
 .our-team .team-image{
@@ -75,7 +75,6 @@
 .our-team .title{
     font-size: 18px;
     color: #3b336a;
-    letter-spacing: 4px;
     margin: 0 0 15px 0;
     transition: all 0.5s ease 0s;
 }

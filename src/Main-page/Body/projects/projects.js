@@ -9,20 +9,17 @@ function ProjectsBlock(props) {
                     <div className='col m4 s6' key={project.id}>
                         <div className="our-team">
                             <div className="team-image">
-                                <img src='' />
+                                <img src={project.img} />
                                 <p className="description">
                                     Задний текст
                                 </p>
                                 <ul className="social">
                                     <li><a href=""><i className="fa fa-instagram"></i></a></li>
-                                    <li><a href=""><i className="fa fa-facebook-f"></i></a></li>
-                                    <li><a href=""><i className="fa fa-twitter"></i></a></li>
-                                    <li><a href=""><i className="fa fa-pinterest-p"></i></a></li>
                                 </ul>
                             </div>
                             <div className="team-info">
-                                <h3 className="title">Артбь dsюти</h3>
-                                <span className="post">Описание мелкое</span>
+                                <h3 className="title">{project.name}</h3>
+                                <span className="post">{project.city}</span>
                             </div>
                         </div>
                     </div>

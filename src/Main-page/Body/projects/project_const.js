@@ -1,4 +1,10 @@
-import art from './img/artbeauty.png'
+import ArtBeauty from './img/artbyuti.png';
+import MiCorazone from './img/mikrazon.png';
+import MetalMk from './img/mkmetal.png';
+import JustSmoke from './img/dzhsmok.png';
+import Estera from './img/estra.png';
+import Ortrus from './img/ortrus.png';
+
 
 export const projectsVal = [
     {
@@ -7,7 +13,7 @@ export const projectsVal = [
         date: '24.05.2017',
         siteDomen: 'artbeauty-nf.ru',
         city: 'Наро-Фоминск',
-        img: art
+        img: ArtBeauty
     },
     {
         id: 2,
@@ -15,7 +21,7 @@ export const projectsVal = [
         date: '24.05.2017',
         siteDomen: 'micorazone.store',
         city: 'Москва',
-        img: art
+        img: MiCorazone
     },
     {
         id: 3,
@@ -23,31 +29,31 @@ export const projectsVal = [
         date: '24.05.2017',
         siteDomen: 'mkmetal.ru',
         city: 'Мытищи',
-        img: art
+        img: MetalMk
     },
     {
         id: 4,
-        name: 'Сайт ArtBeauty',
+        name: 'Сайт JustSmoke NF',
         date: '24.05.2017',
-        siteDomen: 'artbeauty-nf.ru',
+        siteDomen: 'justsmokenf.ru',
         city: 'Наро-Фоминск',
-        img: art
+        img: JustSmoke
     },
     {
         id: 5,
-        name: 'Сайт Mi-corazone',
+        name: 'Интернет-магазин Ester-a',
         date: '24.05.2017',
-        siteDomen: 'micorazone.store',
-        city: 'Москва',
-        img: art
+        siteDomen: 'ester-a.ru',
+        city: 'Наро-Фоминск',
+        img: Estera
     },
     {
         id: 6,
-        name: 'Сайт Metall Mk',
+        name: 'Интернет-магазин Ortrus',
         date: '24.05.2017',
-        siteDomen: 'mkmetal.ru',
-        city: 'Мытищи',
-        img: art
+        siteDomen: 'ortrus.ru',
+        city: 'Наро-Фоминск',
+        img: Ortrus
     }
 
 ];
