@@ -28,6 +28,7 @@ function ProjectsBlock(props) {
     );
         return(
             <div className='container'>
+                <h1>Реализованные проекты</h1>
                 {projects}
             </div>
         )
