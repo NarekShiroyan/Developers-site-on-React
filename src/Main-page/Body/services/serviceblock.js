@@ -11,11 +11,11 @@ function ServiceBlock(props) {
                             </div>
                             <div className="card-content">
                                 <span className="card-title activator grey-text text-darken-4">{service.name}<i className="material-icons right"></i></span>
-                                <p><a href="">Ссылка</a></p>
+                                <a className="waves-effect waves-light btn">Заказать</a>
                             </div>
                             <div className="card-reveal">
                                 <span className="card-title grey-text text-darken-4">{service.description}<i className="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <p>{service.backStage}</p>
                             </div>
                         </div>
                     </div>

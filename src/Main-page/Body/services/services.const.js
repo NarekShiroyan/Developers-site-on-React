@@ -6,19 +6,22 @@ const services = [
         id: 1,
         name: 'Разработка сайтов',
         imgUrl: site,
-        description: 'Полноценная разработка сайтов под ключ'
+        description: 'Создание сайтов',
+        backStage: 'Реализация невероятно креативных сайтов на ваш вкус'
     },
     {
         id: 2,
         name: 'Редизайн',
         imgUrl: design,
-        description: 'Креативная дизайн'
+        description: 'Редизайн',
+        backStage: 'услуги редизайна'
     },
     {
         id: 3,
         name: 'SEO - продвижение',
         imgUrl: seo,
-        description: 'Комплексное продвижение в топ-10'
+        description: 'Комплексное продвижение',
+        backStage: 'Продвижение в топ-10 мастерами из NeatScale, увеличение конверсии сайта'
     }
 
 ];

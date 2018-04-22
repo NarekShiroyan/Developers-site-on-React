@@ -3,17 +3,8 @@ import '../node_modules/materialize-css/dist/css/materialize.css';
 import '../node_modules/materialize-css/dist/js/materialize';
 import '../node_modules/font-awesome/css/font-awesome.css'
 import './App.css';
-import Main from './Main-page/main';
+import '../node_modules/material-icons-react/'
 
-class App extends Component {
+import Routes from './routes'
 
-  render() {
-    return (
-        <div>
-            <Main/>
-        </div>
-    );
-  }
-}
-
-export default App;
+export default () => <Routes/>;
